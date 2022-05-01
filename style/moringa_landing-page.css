@@ -1,9 +1,31 @@
 body{
-    align-content: justified;
+    margin-right: 70px;
+    margin-left: 70px;
 }
 
 h1{
     color: #EC4067;
+}
+
+.main{
+    padding-left: 400px;
+    word-spacing: 0px;
+    display: inline;
+}
+
+.son{
+    display: inline;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 20px;
+    float: right;
+}
+menu.Enroll{
+    background-color: #EC4067;
 }
 menu{
     color: black;
@@ -18,6 +40,14 @@ button{
     color: rgb(255, 255, 255);
     border: none;
     
+}
+
+url{
+    display: block;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding-right: 50px;
 }
 .image{
     height:400px;
@@ -34,11 +64,24 @@ button{
     padding: 20px;
 
 }  
+.word{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
 .ava{ 
-    height: 100px;
-    width: 120px;
+    height: 200px;
+    width: 240px;
     
 }
-#stori{
-    background-color: grey;
+
+h4{
+    color: #EC4067;
+}
+footer{
+    background-color: #f6f6f6;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
