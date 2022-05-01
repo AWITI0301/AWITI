@@ -1,17 +1,22 @@
 body{
-    align-content: justified;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 h1{
     color: #EC4067;
 }
-menu{
-    color: black;
-    padding-left: 800px;
-    word-spacing: 50px;
-    
-
+.main{
+    padding-left: 400px;
+    word-spacing: 0px;
+    display: inline;
 }
+
+.son{
+    display: inline;
+}
+
+
 button{
     background-color: #EC4067;
     padding: 10px;
@@ -19,10 +24,24 @@ button{
     border: none;
     
 }
-.image{
-    height:400px;
-    width: 500px;
-}
+
+ .link{
+     color: black;
+     text-decoration: black;
+     text-align: left;
+     padding-left: 20px;
+     float: right;
+ }
+
+ ul{
+     display: block;
+     list-style-type: none;
+     justify-content: space-around;
+     margin: 0;
+     padding-right: 50px;
+ }
+
+
 
 .flex-container {
     padding: 10px;
@@ -31,14 +50,43 @@ button{
 
 .flex-child {
 
-    padding: 20px;
+    padding: 10px;
 
 }  
+.word{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
 .ava{ 
-    height: 100px;
-    width: 120px;
-    
+    height: 200px;
+    width: 240px;
+}
+.bike{
+    height: 300;
+    width: 600;
 }
 #stori{
     background-color: grey;
+}
+footer{
+    background-color: #f6f6f6;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+h4{
+    color:#EC4067
+}
+footer{
+    
+    justify-content: center;
+
+}
+
+❤{
+    color:red
 }
