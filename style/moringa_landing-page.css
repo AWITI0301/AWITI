@@ -2,10 +2,8 @@ body{
     margin-left: 120px;
     margin-right: 80px;
 }
+     
 
-h1{
-    color: #EC4067;
-}
 .main{
     padding-left: 400px;
     word-spacing: 0px;
@@ -89,4 +87,9 @@ footer{
 
 ❤{
     color:red
+}
+
+sub{
+    color: gray;
+    font-size: small;
 }
