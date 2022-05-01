@@ -1,6 +1,44 @@
- flex_container{
-    display:flex
+body{
+    align-content: justified;
 }
-#Enroll{
-    background-color: pink;
+
+h1{
+    color: #EC4067;
+}
+menu{
+    color: black;
+    padding-left: 800px;
+    word-spacing: 50px;
+    
+
+}
+button{
+    background-color: #EC4067;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    
+}
+.image{
+    height:400px;
+    width: 500px;
+}
+
+.flex-container {
+    padding: 10px;
+    display: flex;
+}
+
+.flex-child {
+
+    padding: 20px;
+
+}  
+.ava{ 
+    height: 100px;
+    width: 120px;
+    
+}
+#stori{
+    background-color: grey;
 }
